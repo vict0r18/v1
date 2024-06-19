@@ -1,0 +1,106 @@
+/* Base CSS */
+*{
+    box-sizing: border-box;
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+
+
+.test {font-family: 'Lato', sans-serif;}
+a {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+a:hover { text-decoration: none }
+.wrapper{
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+    height: 100%;
+}
+.wrapper h1{
+    padding-top: 10px;
+    font-weight: 800;
+    font-size:80px;
+}
+.wrapper p{
+    padding:20px 0px;
+}
+.wrapper a{
+    color: #fff;
+    font-size:60px;
+    padding:0px 8px;
+
+}
+.logo{
+    position: relative;
+     display: inline-block;
+   
+}
+.age h2{
+    background-image: linear-gradient( 101.4deg,  rgba(0,229,255,1) 22.9%, rgba(0,229,255,1) 77.6% );
+    padding:10px;
+    border-radius: 50%;
+
+}
+.age{
+    position: absolute;
+    top:-10px;
+    right:-10px;
+
+}
+img{
+
+    max-height: 300px;
+    max-width: 300px;
+    border-radius:100%;
+}
+body{
+background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));-webkit-animation:bg 18s ease infinite;
+    -moz-animation:bg 18s ease infinite;
+    animation: bg 18s ease infinite;
+    font-family: 'Gugi', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+@keyframes bg{
+    0%{background-position:24% 0;}
+    50%{background-position:77% 100%;}
+    100%{background-position:24% 0;}
+
+}
+
